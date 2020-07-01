@@ -2,6 +2,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'model.dart';
+import 'homepage.dart';
 class AllData extends StatefulWidget {
   @override
   _AllData createState() => _AllData();
@@ -138,7 +139,10 @@ void assigndata(List dataitem ,int k){
                 itemBuilder: (BuildContext context, int index) {
                   return GestureDetector(
                     onTap: () {
-                    
+                    Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => AllDataa()),
+              );
                     },
                     child: Card(
                       elevation: 10,

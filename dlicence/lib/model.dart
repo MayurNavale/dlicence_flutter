@@ -14,7 +14,7 @@
   List planetX = [];List planetB = [];
   List filteredCountries = [];
   //List planetList = ["planet", "Venus", "Earth"];
-  bool isSearching = false;
+
   List urls=[
   'http://192.168.43.246:8080/dLicence/api/countries/v1',
   'http://192.168.43.246:8080/dLicence/api/licenseclass/v1',
